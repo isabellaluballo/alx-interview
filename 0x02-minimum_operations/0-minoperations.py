@@ -26,4 +26,5 @@ def minOperations(n):
     """ Return sum of process until n H """
     if n < 2 or type(n) is not int:
         return 0
-    values = countProcess(n
+    values = countProcess(n)
+    return sum(values)
